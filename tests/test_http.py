@@ -30,7 +30,7 @@ def test_path_url_encoding():
 
     assert path.url == "users/hello%20world"
 
-def test_route_key():
+def test_bucket_key():
     path = Path(
         "GET",
         "channels/{channel_id}",
